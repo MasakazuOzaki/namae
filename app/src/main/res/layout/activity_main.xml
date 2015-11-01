@@ -10,6 +10,16 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#3E8CC7">
+        </android.support.v7.widget.Toolbar>
+
+
         <com.astuetz.PagerSlidingTabStrip
             android:id="@+id/tabs"
             android:layout_width="match_parent"
@@ -19,12 +29,14 @@
             android:textSize="15dp"
             android:background="#3E8CC7"
             app:pstsDividerColor="@android:color/transparent"
-            app:pstsIndicatorHeight="3dp"
-            app:pstsShouldExpand="true" />
+            app:pstsIndicatorHeight="4dp"
+            app:pstsShouldExpand="true"
+            app:pstsUnderlineColor="@android:color/transparent"/>
 
         <!--android:background="#F00292"
             android:background="#E66096"-->
         <!--app:pstsIndicatorColor="@color/red_error"-->
+
         <android.support.v4.view.ViewPager
             android:id="@+id/pager"
             android:layout_width="match_parent"
