@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +24,7 @@ public class CustomAdapter extends ArrayAdapter {
         super(context, textViewResourceId, objects);
 
         mWords = objects;
-        layoutInflater = (layoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
 
@@ -42,7 +43,12 @@ public class CustomAdapter extends ArrayAdapter {
     public View getView(int position, View convertView, ViewGroup parent){
        Word item = (Word)getItem(position);
 
-        if
+        if(null ==convertView){
+            convertView = layoutInflater.inflate(R.layout.rowdata, null);
+        }
+
+        TextView textView = (TextView) convertView.findViewById(R.id.text);
+        textView.setText(item.spell);
 
 
         return convertView;

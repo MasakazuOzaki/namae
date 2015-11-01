@@ -10,6 +10,9 @@ import android.support.v7.widget.Toolbar;
 
 import com.astuetz.PagerSlidingTabStrip;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends FragmentActivity {
 
     ViewPager pager;
@@ -35,6 +38,12 @@ public class MainActivity extends FragmentActivity {
 
         toolbar.setTitle("namae");
         toolbar.setTitleTextColor(Color.parseColor("#ffffff"));
+
+
+        List<Word> objects = new ArrayList<Word>();
+
+        objects.add(new Word("てすと"));
+
 
 
 
