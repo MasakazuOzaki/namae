@@ -21,6 +21,7 @@
             app:pstsDividerColor="@android:color/transparent"
             app:pstsIndicatorHeight="3dp"
             app:pstsShouldExpand="true" />
+
         <!--android:background="#F00292"
             android:background="#E66096"-->
         <!--app:pstsIndicatorColor="@color/red_error"-->
