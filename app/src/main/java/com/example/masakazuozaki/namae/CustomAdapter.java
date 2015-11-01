@@ -40,6 +40,11 @@ public class CustomAdapter extends ArrayAdapter {
     }
     @Override
     public View getView(int position, View convertView, ViewGroup parent){
+       Word item = (Word)getItem(position);
+
+        if
+
+
         return convertView;
     }
 }
