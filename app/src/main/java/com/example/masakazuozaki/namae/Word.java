@@ -6,8 +6,10 @@ package com.example.masakazuozaki.namae;
 public class Word {
     public String spell;
 
+
     Word(String spell){
         this.spell = spell;
+
     }
 
 }

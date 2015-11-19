@@ -7,6 +7,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.widget.ListView;
 
 import com.astuetz.PagerSlidingTabStrip;
 
@@ -19,6 +20,7 @@ public class MainActivity extends FragmentActivity {
     MyPageAdapter adapter;
     PagerSlidingTabStrip tabs;
     Toolbar toolbar;
+
 
 
 
@@ -40,9 +42,6 @@ public class MainActivity extends FragmentActivity {
         toolbar.setTitleTextColor(Color.parseColor("#ffffff"));
 
 
-        List<Word> objects = new ArrayList<Word>();
-
-        objects.add(new Word("てすと"));
 
 
 

@@ -1,6 +1,7 @@
 package com.example.masakazuozaki.namae;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,7 +50,8 @@ public class CustomAdapter extends ArrayAdapter {
 
         TextView textView = (TextView) convertView.findViewById(R.id.text);
         textView.setText(item.spell);
-
+        textView.setTextColor(Color.BLACK);
+        textView.setTextSize(20.0f);
 
         return convertView;
     }
