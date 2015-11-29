@@ -21,21 +21,6 @@
             android:id="@+id/button2"
             android:layout_gravity="center_horizontal" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:id="@+id/textView"
-            android:layout_gravity="center_horizontal"
-            android:text="Hello World!" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button3"
-            android:layout_gravity="center_horizontal"
-            android:text="apply" />
-
         <Button
             android:layout_width="60dp"
             android:layout_height="60dp"

@@ -20,10 +20,11 @@
         android:layout_height="60dp"
         android:id="@+id/button"
         android:layout_gravity="bottom|right"
-        android:layout_marginBottom="10dp"
-        android:layout_marginRight="10dp"
-        android:background="@drawable/circle"
+        android:layout_marginBottom="17dp"
+        android:layout_marginRight="17dp"
 
-        android:textColor="#ffffff" />
+        android:textColor="#ffffff"
+        android:stateListAnimator="@drawable/button_style"
+        android:background="@drawable/circle" />
 
 </FrameLayout>
