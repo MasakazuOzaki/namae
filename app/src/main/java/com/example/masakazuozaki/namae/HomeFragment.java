@@ -28,6 +28,9 @@ public class HomeFragment extends Fragment {
 
         super.onCreate(savedInstanceState);
         position = getArguments().getInt("position");
+
+
+
     }
 
     @Override
